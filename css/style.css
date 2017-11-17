@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+html{
+  padding: 0;
+  margin: 0;
+}
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #202931;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2c3e50;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #25303c;
+}
+#hero{
+  width: 100%;
+  height: 519px;
+  background: #ecf0f1;
+  /*background-color: rgba(0, 0, 0, 0.6);*/
+  /*background: url('../BG.jpeg');*/
+  background: url(../BG.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 21px;
+}
+#heroH1{
+  text-align: center;
+  color: #ffffff;
+  padding-top: 250px;
+  margin-bottom: 0;
+  font-size: 50px;
+  margin-top: 0;
+  text-shadow: 6px 6px 0px rgb(230, 77, 77);
+  font-family: 'Archivo Black', sans-serif;
+}
+#heroP{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+  font-family: 'Archivo Black', sans-serif;
+}
+#heroButton{
+  display: flex;
+  justify-content: center;
+    background-color: #2c3e50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+.Bob{
+  width: 100%;
+  height: 55px;
+  background: #2d3f51;
+  /*margin-top: 70px;*/
+}
+.BobH1{
+  text-align: center;
+  color: #ecf0f1;
+  padding-top: 10px;
+  margin: 0;
+}
+.infoH2{
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  line-height: 30px;
+  color: #ecf0f1;
+}
+.infoBlock{
+  background: #202931;
+}
+.MadeByA{
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 3px 3px 0px rgb(230, 78, 78);
+}
+/*White #ecf0f1 Black #2c3e50 Silver #bdc3c7*/
+footer{
+  background: #2e4052;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+#heroPF{
+  text-align: center;
+  color: rgb(236, 240, 241);
+  padding-top: 15px;
+}
